@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Total Salary</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p id="intro">Enter Name, ID, and Salary for Each Employee:</p>
+<form>
+    <div>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="id" placeholder="Enter ID">
+        <input type="number" id="salary" placeholder="Enter Salary">
+    </div>
+
+</form>
+<button onclick="submitEmployee()" id="submitBtn">Submit Employee</button>
+<button onclick="clearAllEmployees()" id="clearBtn">Reset</button>
+
+<p id="totalSalary">Total Salary of Employees:</p>
+
+<div id="employees"></div>
+
+</body>
+</html>
